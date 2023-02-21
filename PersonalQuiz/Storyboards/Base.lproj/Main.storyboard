@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -261,12 +260,12 @@
                         <barButtonItem key="rightBarButtonItem" title="Item" id="j23-RQ-kxY"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="multipleStackView" destination="ria-oH-Ksu" id="3n1-GE-rBh"/>
-                        <outlet property="questionLabel" destination="Rii-Jh-Pbg" id="c9x-1b-Psc"/>
+                        <outlet property="multipleStackView" destination="ria-oH-Ksu" id="YfV-2Y-i2Q"/>
+                        <outlet property="questionLabel" destination="Rii-Jh-Pbg" id="k0u-68-K7x"/>
                         <outlet property="questionProgressView" destination="nY8-X6-slU" id="Krh-QF-Dxg"/>
                         <outlet property="rangedSlider" destination="WtB-fk-gyk" id="QNb-F7-I0b"/>
                         <outlet property="rangedStackView" destination="hPN-Pc-428" id="tsz-la-fZz"/>
-                        <outlet property="singleStackView" destination="tbb-9u-Elk" id="mvy-94-GiN"/>
+                        <outlet property="singleStackView" destination="tbb-9u-Elk" id="cIp-o9-HcI"/>
                         <outletCollection property="singleButtons" destination="UvY-MH-goo" collectionClass="NSMutableArray" id="AiI-7N-lyY"/>
                         <outletCollection property="singleButtons" destination="Aj9-zy-G1Q" collectionClass="NSMutableArray" id="AXc-sb-ISD"/>
                         <outletCollection property="singleButtons" destination="Rdz-ze-VUp" collectionClass="NSMutableArray" id="IDQ-6R-DSd"/>
